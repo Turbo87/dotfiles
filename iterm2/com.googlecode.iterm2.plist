@@ -26,6 +26,10 @@
 	<false/>
 	<key>HideTabNumber</key>
 	<false/>
+	<key>LoadPrefsFromCustomFolder</key>
+	<true/>
+	<key>NSNavLastRootDirectory</key>
+	<string>~/Code/dotfiles/iterm2</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -278,13 +282,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.18225282430648804</real>
+				<real>0.14467546343803406</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.13758668303489685</real>
+				<real>0.11163262277841568</real>
 				<key>Red Component</key>
-				<real>0.010720020160079002</real>
+				<real>0.013237138278782368</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -304,7 +308,7 @@
 			<key>Blink Allowed</key>
 			<false/>
 			<key>Blinking Cursor</key>
-			<false/>
+			<true/>
 			<key>Blur</key>
 			<false/>
 			<key>Blur Radius</key>
@@ -327,7 +331,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>80</integer>
+			<integer>140</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Boost</key>
@@ -363,10 +367,12 @@
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
+			<key>Cursor Type</key>
+			<integer>1</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -708,7 +714,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Powerline-Consolas 13</string>
+			<string>FiraCode-Light 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prevent Opening in a Tab</key>
@@ -718,7 +724,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>25</integer>
+			<integer>37</integer>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
@@ -777,7 +783,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Thin Strokes</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
@@ -987,13 +993,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.16507269442081451</real>
+				<real>0.10241912305355072</real>
 				<key>Color Space</key>
 				<string>Calibrated</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.0055813239887356758</real>
 				<key>Red Component</key>
-				<real>0.12144337594509125</real>
+				<real>0.078081533312797546</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -1013,7 +1019,7 @@
 			<key>Blink Allowed</key>
 			<false/>
 			<key>Blinking Cursor</key>
-			<false/>
+			<true/>
 			<key>Blur</key>
 			<false/>
 			<key>Blur Radius</key>
@@ -1038,7 +1044,7 @@
 			<key>Close Sessions On End</key>
 			<true/>
 			<key>Columns</key>
-			<integer>80</integer>
+			<integer>140</integer>
 			<key>Command</key>
 			<string></string>
 			<key>Cursor Boost</key>
@@ -1074,10 +1080,12 @@
 				<key>Red Component</key>
 				<real>0.0</real>
 			</dict>
+			<key>Cursor Type</key>
+			<integer>1</integer>
 			<key>Custom Command</key>
 			<string>No</string>
 			<key>Custom Directory</key>
-			<string>No</string>
+			<string>Recycle</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -1419,7 +1427,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Powerline-Consolas 13</string>
+			<string>FiraCode-Light 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prevent Opening in a Tab</key>
@@ -1429,7 +1437,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>25</integer>
+			<integer>37</integer>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
@@ -1488,7 +1496,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Thin Strokes</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Transparency</key>
 			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
