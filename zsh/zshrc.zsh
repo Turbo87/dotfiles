@@ -17,10 +17,10 @@ antigen bundle kennethreitz/autoenv
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Theme
-antigen bundle $HOME/.zsh-custom/plugins better-virtualenv
-antigen bundle $HOME/.zsh-custom/plugins multirust
-antigen bundle $HOME/.zsh-custom/plugins workenv
-antigen theme $HOME/.zsh-custom/themes mitsuhiko
+antigen bundle $HOME/.zsh-custom/plugins better-virtualenv --no-local-clone
+antigen bundle $HOME/.zsh-custom/plugins multirust --no-local-clone
+antigen bundle $HOME/.zsh-custom/plugins workenv --no-local-clone
+antigen theme $HOME/.zsh-custom/themes mitsuhiko --no-local-clone
 
 # Tell antigen that you're done.
 antigen apply
