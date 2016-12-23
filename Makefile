@@ -6,7 +6,7 @@ install-sh:
 	ln -s `pwd`/sh/myprofile ~/.profile
 
 install-zsh: install-sh
-	rm -f ~/.zshrc
+	rm -rf ~/.zshrc ~/.zsh-custom
 	ln -s `pwd`/zsh/zshrc ~/.zshrc
 	ln -s `pwd`/zsh/custom ~/.zsh-custom
 
