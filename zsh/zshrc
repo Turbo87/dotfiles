@@ -8,7 +8,6 @@ antigen bundle bower
 antigen bundle git
 antigen bundle git-prompt
 antigen bundle mercurial
-antigen bundle git-prompt
 antigen bundle osx
 antigen bundle npm
 antigen bundle pip
