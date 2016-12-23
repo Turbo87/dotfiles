@@ -1,60 +1,30 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+source /usr/local/share/antigen/antigen.zsh
 
-. ~/.profile
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
 
-# Path to your oh-my-zsh installation.
-export ZSH=/Users/mitsuhiko/.oh-my-zsh
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle bower
+antigen bundle git
+antigen bundle git-prompt
+antigen bundle mercurial
+antigen bundle git-prompt
+antigen bundle osx
+antigen bundle npm
+antigen bundle pip
 
-# Set name of the theme to load. Optionally, if you set this to "random"
-# it'll load a random theme each time that oh-my-zsh is loaded.
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="mitsuhiko"
+antigen bundle kennethreitz/autoenv
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+# Theme
+antigen bundle $HOME/.zsh-custom/plugins better-virtualenv
+antigen bundle $HOME/.zsh-custom/plugins multirust
+antigen bundle $HOME/.zsh-custom/plugins workenv
+antigen theme $HOME/.zsh-custom/themes mitsuhiko
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
-DISABLE_AUTO_UPDATE="true"
+# Tell antigen that you're done.
+antigen apply
 
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-HIST_STAMPS="yyyy-mm-dd"
-
-# Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM=/Users/mitsuhiko/.zsh-custom
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git-prompt mercurial better-virtualenv osx workenv multirust)
-
-source $ZSH/oh-my-zsh.sh
-
-unsetopt share_history
+source ~/.profile
