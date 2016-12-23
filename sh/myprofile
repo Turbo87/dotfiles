@@ -1,3 +1,12 @@
+alias ..="cd .."
+alias cl="git clone"
+alias clu="git clone --origin=upstream"
+alias ao="git remote add origin"
+alias em="ember"
+alias yawn="yarn --no-lockfile"
+alias nombom="rm -rf node_modules bower_components && npm i && bower i"
+alias si="stree . && idea ."
+
 # virtualenvwrapper and pip
 if [[ `id -u` != '0' ]]; then
   if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
@@ -10,8 +19,6 @@ if [[ `id -u` != '0' ]]; then
     source ~/.local/venvs/virtualenvwrapper/bin/virtualenvwrapper.sh
   fi
 fi
-
-alias ..='cd ..'
 
 # don't let virtualenv show prompts by itself
 VIRTUAL_ENV_DISABLE_PROMPT=1
