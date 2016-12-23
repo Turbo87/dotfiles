@@ -2,8 +2,8 @@ install: install-zsh \
          install-git
 
 install-sh:
-	rm -f ~/.myprofile
-	ln -s `pwd`/sh/myprofile ~/.myprofile
+	rm -f ~/.profile
+	ln -s `pwd`/sh/myprofile ~/.profile
 
 install-zsh: install-sh
 	rm -f ~/.zshrc
