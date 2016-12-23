@@ -1,7 +1,0 @@
-*.o
-*.pyc
-*.pyo
-*.bak
-.DS_Store
-vim/.netrwhist
-vim/sessions
