@@ -25,4 +25,4 @@ antigen theme $HOME/.zsh-custom/themes mitsuhiko
 # Tell antigen that you're done.
 antigen apply
 
-source ~/.profile
+source $HOME/.profile

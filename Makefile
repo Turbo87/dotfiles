@@ -3,11 +3,11 @@ install: install-zsh \
 
 install-sh:
 	rm -f ~/.profile
-	ln -s `pwd`/sh/myprofile ~/.profile
+	ln -s `pwd`/sh/profile.sh ~/.profile
 
 install-zsh: install-sh
 	rm -rf ~/.zshrc ~/.zsh-custom
-	ln -s `pwd`/zsh/zshrc ~/.zshrc
+	ln -s `pwd`/zsh/zshrc.zsh ~/.zshrc
 	ln -s `pwd`/zsh/custom ~/.zsh-custom
 
 install-git:
