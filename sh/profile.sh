@@ -49,3 +49,9 @@ export PATH="$HOME/.yarn/bin:$PATH"
 
 # Load API keys and other private stuff
 source $HOME/.private-profile
+
+# Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin"
+
+# Load RVM into a shell session *as a function*
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
