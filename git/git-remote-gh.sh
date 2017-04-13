@@ -12,7 +12,7 @@ else
   exit 1;
 fi
 
-remote="https://github.com/$1/$project_name.git"
+remote="git@github.com:$1/$project_name.git"
 
 $(git remote add $1 $remote)
 $(git fetch $1)
