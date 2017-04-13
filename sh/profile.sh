@@ -6,6 +6,8 @@ alias em="ember"
 alias yawn="yarn --no-lockfile"
 alias nombom="rm -rf node_modules bower_components && npm i && bower i"
 alias si="stree . && idea ."
+alias yt="yarn test"
+alias yr="yarn run"
 
 # virtualenvwrapper and pip
 if [[ `id -u` != '0' ]]; then
