@@ -47,6 +47,9 @@ export NVM_DIR="/Users/tbieniek/.nvm"
 # Add yarn to PATH
 export PATH="$HOME/.yarn/bin:$PATH"
 
+# Add cargo to PATH
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # Load API keys and other private stuff
 source $HOME/.private-profile
 
